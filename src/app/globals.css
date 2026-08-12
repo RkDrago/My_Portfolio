@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@import "remixicon/fonts/remixicon.css";
+
+html,
+body {
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+
+::selection {
+    background-color: #d3d3d3;
+    color: #333333;
+}
+
+::-moz-selection {
+    background-color: #d3d3d3;
+    color: #333333;
+}
+
+.noise {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: .08;
+    background-image:
+        radial-gradient(circle, #000000 1px, transparent 1px);
+    background-size: 6px 6px;
+    z-index: (-50);
+}
