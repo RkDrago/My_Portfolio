@@ -25,9 +25,7 @@ const Folio2 = () => {
 
         window.addEventListener("scroll", handleFirstScroll, { passive: true });
 
-        return () => {
-            window.removeEventListener("scroll", handleFirstScroll);
-        };
+        return () => { window.removeEventListener("scroll", handleFirstScroll) };
     }, []);
 
     useEffect(() => {
