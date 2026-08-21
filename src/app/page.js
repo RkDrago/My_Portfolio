@@ -256,7 +256,7 @@ export default function Home() {
             <div className="h-52 w-52 overflow-hidden rounded-full border-4 border-black sm:h-64 sm:w-64 md:h-72 md:w-72 lg:h-80 lg:w-80 z-20">
               <img
                 className="h-full w-full object-cover"
-                src="https://media.licdn.com/dms/image/v2/D4D03AQGqOI_CefyeIw/profile-displayphoto-scale_400_400/B4DZ7_BolYIEAg-/0/1782395080579?e=1787184000&v=beta&t=j8WNv0VUeNnOJY-BYEOx9WvHUysmbsezYr50uVMLQog"
+                src="/rudra.jpg"
                 alt="Rudra Kant Pandey"
               />
             </div>
